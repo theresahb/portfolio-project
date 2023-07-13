@@ -1,0 +1,78 @@
+.contact-container {
+    width: 90%;
+}
+
+.contacts {
+    flex-direction: column;
+    row-gap: .5rem;
+    color: #ffffff;
+    margin: 2rem 0 7rem 0;
+}
+
+.contact-heading {
+    flex-direction: column;
+    row-gap: .4rem;
+}
+
+.contact-heading h1 {
+    font-size: 2.5rem;
+}
+
+.contact-heading p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.contact-more {
+    flex-direction: column;
+    row-gap: 8rem;
+}
+
+.media p a, 
+.more p a {
+    color: #f0d174;
+    opacity: .6;
+}
+
+.contact {
+    column-gap: 1rem;
+}
+
+.more {
+    flex-direction: column;
+    row-gap: .3rem;
+}
+
+.more h2 {
+    font-weight: 300;
+}
+
+.contact-icon {
+    stroke: #ffffff;
+}
+
+@media (max-width: 900px) {
+    .contact-heading h1 {
+        font-size: 2.1rem;
+    }
+    
+    .contact-heading p {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    .more h2 {
+        font-size: 1.3rem;
+    }
+
+    .contact-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-heading h1 {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,132 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5rem;
+}
+
+.hero {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    row-gap: 2rem;
+    width: 100%;
+}
+
+.hero-text  h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.hero-image-text {
+    column-gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-image {
+    background: #f0d174;
+    width: 22rem;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.hero-image img {
+    border: 6px solid #2B2B2B;
+    border-radius: 12px;
+}
+
+.hero-subtext {
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.sub {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.sub h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.hero-subtext button {
+    padding: .5rem 1.5rem;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #ffffff56;
+}
+
+.hero-subtext button a {
+    color: #ffffffb7;
+}
+
+.hero-subtext button:hover {
+    color: #ffffff56;
+    border: 1px solid #ffffff56;
+    transition: .5s ease-in-out;
+}
+
+.hero-subtext button a:hover {
+    color: #ffffff56;
+    transition: .5s ease-in-out;
+}
+
+@media (max-width: 900px) {
+    .hero-text  h1 {
+        font-size: 2.5rem;
+    }
+
+    .sub h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .home-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        row-gap: 2rem;
+    }
+
+    .hero-image-text {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-image {
+        width: 18rem;
+    }
+
+    .hero-subtext button a {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .hero-image {
+        width: 15rem;
+    }
+
+    .sub {
+        row-gap: .5rem;
+    }
+}
