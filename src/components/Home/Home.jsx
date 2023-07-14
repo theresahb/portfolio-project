@@ -21,7 +21,7 @@ const Home = () => {
                         <h2>I'm Theresah,</h2>
                         <h2>A Frontend Developer based in Ghana.</h2>
                     </div>
-                    <button className='resume-btn'><a href="https://drive.google.com/file/d/12incQ_aY__1vzjOjSCPq7EP_155Bs61C/view?usp=drivesdk">Resume</a></button>
+                    <button className='resume-btn'><a href="https://drive.google.com/file/d/14hqi6l3iQ45oC275Khylmqe7u8AKd5tr/view?usp=drivesdk">Resume</a></button>
                 </div>
             </div>
         </div>
