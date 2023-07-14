@@ -40,25 +40,25 @@ export const projects = [
 export const media = [
     {
         id: "1",
-        name: "GitHub",
-        link: 'https://github.com/theresahb'
-    },
-
-    {
-        id: "2",
         name: "Email",
         link: 'mailto:theresahb14@gmail.com'
     },
 
     {
-        id: "3",
-        name: "Twiiter",
+        id: "2",
+        name: "Twitter",
         link: 'https://twitter.com/theresahb_'
     },
 
     {
-        id: "4",
+        id: "3",
         name: "Instagram",
         link: 'https://instagram.com/theresahb_'
+    },
+
+    {
+        id: "4",
+        name: "Phone",
+        link: 'tel:+233559040902'
     }
 ]

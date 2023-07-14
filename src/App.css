@@ -9,19 +9,6 @@
   width: 100%;
 }
 
-/* .side {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 20%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-} */
-
 .other {
   display: flex;
   flex-direction: column;
@@ -37,17 +24,6 @@
     flex-direction: column;
   }
 
-  .side {
-    padding: 0 1rem 0 1rem;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-  }
-}
-
-@media (max-width: 400px) {
   .other {
     padding: 0;
   }

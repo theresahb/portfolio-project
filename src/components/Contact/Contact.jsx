@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="contact-heading flex">
                 <h1>Got something for us to work on?</h1>
                 <div className="flex">
-                    <p>Contact me here</p>
+                    <p>Contact me here:</p>
                 </div>
             </div>
             <div className="contact-more flex">
@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
                 <div className="more flex">
                     <div className="flex">
-                        <h2>More of my projects are here</h2>
+                        <h2>More of my projects are available here:</h2>
                     </div>
                     
                     <p><a href="https://github.com/theresahb">GitHub</a></p>
