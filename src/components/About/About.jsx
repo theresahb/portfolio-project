@@ -30,6 +30,7 @@ const About = () => {
                         <li>Tailwind CSS</li>
                         <li>SCSS</li>
                         <li>Git & GitHub</li>
+                        <li>Framer Motion</li>
                     </ul>
                 </div>
             </div>

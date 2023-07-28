@@ -37,7 +37,7 @@ header {
 
 .logo h2 {
     color: #ffffffd8;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -68,10 +68,10 @@ header {
     }
 
     .logo h2 {
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
 
     .navbar button a {
-        font-size: .8rem;
+        font-size: .9rem;
     }
 }

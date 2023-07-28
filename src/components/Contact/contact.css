@@ -15,12 +15,12 @@
 }
 
 .contact-heading h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 .contact-heading p {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .contact-more {
@@ -32,6 +32,7 @@
 .more p a {
     color: #f0d174;
     opacity: .6;
+    font-size: 1.3rem;
 }
 
 .contact {
@@ -53,16 +54,16 @@
 
 @media (max-width: 900px) {
     .contact-heading h1 {
-        font-size: 2.1rem;
+        font-size: 2.3rem;
     }
     
     .contact-heading p {
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .more h2 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .contact-icon {

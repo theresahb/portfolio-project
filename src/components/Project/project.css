@@ -38,7 +38,7 @@
 }
 
 .head h2 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 400;
     color: #f0d174;
 }
@@ -50,7 +50,7 @@
 
 .details {
     opacity: .8;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -60,7 +60,7 @@
 }
 
 .project-tools p {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .project-links {
@@ -82,23 +82,15 @@
 
 @media (max-width: 900px) {
     .heading  h1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     .heading p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .head h2 {
-        font-size: 1.4rem;
-    }
-    
-    .details {
-        font-size: .9rem;
-    }
-    
-    .project-tools p {
-        font-size: .9rem;
+        font-size: 1.6rem;
     }
 
     .icon {

@@ -39,15 +39,17 @@
 
 .subtext h1 {
     font-weight: 500;
+    font-size: 2.5rem;
 }
 
 .subtext p {
     line-height: 1.7;
     font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .subtext h2 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 600;
 }
 
@@ -63,7 +65,7 @@ li {
 
 @media (max-width: 900px) {
     .subtext  h1 {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 }
 
