@@ -89,7 +89,7 @@ export const projects = [
     {
         id: "5",
         title: "Movie Box",
-        details: "Created a movie page that show the top rated movies.",
+        details: "Created a movie page that shows the top rated movies.",
         tools: ['React', 'CSS'],
         github: 'https://github.com/theresahb/movie-box',
         live: 'https://movie-box-theresahb.vercel.app/'
