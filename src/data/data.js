@@ -1,3 +1,45 @@
+export const skills = [
+    {
+        id: "1",
+        name: "HTML5",
+    },
+
+    {
+        id: "2",
+        name: "CSS3",
+    },
+
+    {
+        id: "3",
+        name: "JavaScript",
+    },
+
+    {
+        id: "4",
+        name: "React",
+    },
+
+    {
+        id: "5",
+        name: "TailwindCSS",
+    },
+
+    {
+        id: "6",
+        name: "SCSS",
+    },
+
+    {
+        id: "7",
+        name: "Git & GitHub",
+    },
+
+    {
+        id: "8",
+        name: "Framer Motion",
+    }
+]
+
 export const projects = [
     {
         id: "1",
@@ -35,14 +77,32 @@ export const projects = [
         live: 'https://polite-gumdrop-3b7d17.netlify.app/'
     },
 
-    // {
-    //     id: "4",
-    //     title: "Calculator App",
-    //     details: "Created a calculator app with 3 different themes.",
-    //     tools: ['HTML', 'CSS', 'JavaScript'],
-    //     github: 'https://github.com/theresahb/calculator-app',
-    //     live: 'https://theresahb.github.io/calculator-app/'
-    // }
+    {
+        id: "4",
+        title: "exStore",
+        details: "Created a clone of exStore landing page.",
+        tools: ['React', 'TailwindCSS'],
+        github: 'https://github.com/theresahb/xbox-game',
+        live: 'https://xbox-two.vercel.app/'
+    },
+
+    {
+        id: "5",
+        title: "Movie Box",
+        details: "Created a movie page that show the top rated movies.",
+        tools: ['React', 'CSS'],
+        github: 'https://github.com/theresahb/movie-box',
+        live: 'https://movie-box-theresahb.vercel.app/'
+    },
+
+    {
+        id: "6",
+        title: "Arc Gallery",
+        details: "Created a gallery page whic you can drag and drop images.",
+        tools: ['React', 'CSS'],
+        github: 'https://github.com/theresahb/image-gallery',
+        live: 'https://image-gallery-nine-chi.vercel.app/'
+    }
 ]
 
 
@@ -55,7 +115,7 @@ export const media = [
 
     {
         id: "2",
-        name: "Twitter",
+        name: "X",
         link: 'https://twitter.com/theresahb_'
     },
 

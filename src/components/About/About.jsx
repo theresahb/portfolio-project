@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImage from '../../images/about.PNG'
+import { skills } from '../../data/data'
 import './about.css'
 
 const About = () => {
@@ -23,14 +24,9 @@ const About = () => {
                 <div className="subtext flex">
                     <h2>Tools</h2>
                     <ul className='tools flex'>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Tailwind CSS</li>
-                        <li>SCSS</li>
-                        <li>Git & GitHub</li>
-                        <li>Framer Motion</li>
+                        {skills.map((skill) => (
+                            <li key={skill.id}>{skill.name}</li>
+                        ))}
                     </ul>
                 </div>
             </div>

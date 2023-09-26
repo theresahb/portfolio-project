@@ -7,7 +7,7 @@ const Project = () => {
     <main className='project-container' id='projects'>
         <div className="all-projects flex">
             <div className="heading flex">
-                <h1>Selected Works</h1>
+                <h1>Selected Projects</h1>
                 <p>These are some projects I've worked on. All responsive.</p>
             </div>
             <div className="projects">
