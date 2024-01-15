@@ -16,26 +16,36 @@ export const skills = [
 
     {
         id: "4",
-        name: "React",
+        name: "ReactJS",
     },
 
     {
         id: "5",
-        name: "TailwindCSS",
+        name: "NextJS",
     },
 
     {
         id: "6",
-        name: "SCSS",
+        name: "Firebase",
     },
 
     {
         id: "7",
-        name: "Git & GitHub",
+        name: "TailwindCSS",
     },
 
     {
         id: "8",
+        name: "SCSS",
+    },
+
+    {
+        id: "9",
+        name: "Git & GitHub",
+    },
+
+    {
+        id: "10",
         name: "Framer Motion",
     }
 ]
@@ -43,15 +53,42 @@ export const skills = [
 export const projects = [
     {
         id: "1",
+        title: "Gericht Restaurant",
+        details: "Website for a restaurant",
+        tools: ['ReactJS', 'TailwindCSS'],
+        github: 'https://github.com/theresahb/gericht-restaurant',
+        live: 'https://gericht-tan.vercel.app/'
+    },
+
+    {
+        id: "2",
+        title: "Webflow Tech",
+        details: "Website for a tech agency",
+        tools: ['NextJS', 'TailwindCSS'],
+        github: 'https://github.com/theresahb/webflow-tech',
+        live: 'https://webflow-tech.vercel.app/'
+    },
+
+    {
+        id: "3",
         title: "Home Rentals Agency",
         details: "A home rentals agency page.",
-        tools: ['React', 'TailwindCSS', 'Framer Motion'],
+        tools: ['ReactJS', 'TailwindCSS', 'Framer Motion'],
         github: 'https://github.com/theresahb/home-rentals-agency',
         live: 'https://home-rentals-agency-seven.vercel.app'
     },
 
     {
-        id: "2",
+        id: "4",
+        title: "TableKi",
+        details: "A pharmacy website",
+        tools: ['NextJS', 'TailwindCSS'],
+        github: 'https://github.com/theresahb/tableki',
+        live: 'https://tableki.vercel.app/'
+    },
+
+    {
+        id: "5",
         title: "Revolut",
         details: "Created a clone of Revolut landing page.",
         tools: ['HTML', 'CSS', 'JavaScript'],
@@ -60,46 +97,28 @@ export const projects = [
     },
 
     {
-        id: "3",
+        id: "6",
         title: "Play",
-        details: "Created a clone of Play landing page.",
+        details: "Play landing page.",
         tools: ['HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/theresahb/play-landing',
         live: 'https://admirable-alpaca-f25da0.netlify.app/'
     },
 
     {
-        id: "4",
-        title: "Countries API",
-        details: "Created a website with a list of countries all over the world. Any country can be searched.",
-        tools: ['React', 'SCSS'],
-        github: 'https://github.com/theresahb/rest-countries-api',
-        live: 'https://polite-gumdrop-3b7d17.netlify.app/'
-    },
-
-    {
-        id: "4",
+        id: "7",
         title: "exStore",
-        details: "Created a clone of exStore landing page.",
-        tools: ['React', 'TailwindCSS'],
+        details: "Created exStore landing page.",
+        tools: ['ReactJS', 'TailwindCSS'],
         github: 'https://github.com/theresahb/xbox-game',
         live: 'https://xbox-two.vercel.app/'
     },
 
     {
-        id: "5",
-        title: "Movie Box",
-        details: "Created a movie page that shows the top rated movies.",
-        tools: ['React', 'CSS'],
-        github: 'https://github.com/theresahb/movie-box',
-        live: 'https://movie-box-theresahb.vercel.app/'
-    },
-
-    {
-        id: "6",
+        id: "8",
         title: "Arc Gallery",
-        details: "Created a gallery page whic you can drag and drop images.",
-        tools: ['React', 'CSS'],
+        details: "Created a gallery page which you can drag and drop images.",
+        tools: ['ReactJS', 'CSS', 'Firebase'],
         github: 'https://github.com/theresahb/image-gallery',
         live: 'https://image-gallery-nine-chi.vercel.app/'
     }
